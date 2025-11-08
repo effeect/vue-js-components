@@ -4,9 +4,12 @@
       <div class="">
         <p class="title">Welcome to my Website</p>
         <p class="subtitle">Fully revamped with Vue.js and Bulma instead of Next.js</p>
+        <TableObject></TableObject>
       </div>
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TableObject from './TableObject.vue'
+</script>
 <style lang="css"></style>
